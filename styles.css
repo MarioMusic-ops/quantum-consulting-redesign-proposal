@@ -1048,7 +1048,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .consult {
     padding: 100px 32px 120px;
 }
-.consult-card {
+/* .consult-card {
     max-width: 1180px;
     margin: 0 auto;
     padding: 64px 64px;
@@ -1061,6 +1061,20 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     position: relative;
     overflow: hidden;
     box-shadow: 0 30px 70px rgba(59,130,246,0.22);
+} */
+.consult-card {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 64px 64px;
+    border-radius: var(--radius-xl);
+    background: linear-gradient(135deg, #dfe7ee 0%, #d3dee7 48%, #c7d5e0 100%);
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 24px 50px rgba(20, 50, 90, 0.12);
 }
 .consult-card::after {
     content: "";
