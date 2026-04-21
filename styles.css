@@ -697,6 +697,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .hero-ctas {
     margin-top: 28px;
+   margin-bottom: 18px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -1227,6 +1228,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
         grid-template-columns: 1fr;
     }
 }
+
 /* =========================================================
    Responsive — Mobile (≤ 720px)
    ========================================================= */
@@ -1297,8 +1299,21 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
     .footer { padding: 50px 20px 24px; }
     .footer-cols { grid-template-columns: 1fr 1fr; }
-    .hero-ctas { flex-direction: column; align-items: stretch; }
-    .hero-ctas .btn { justify-content: center; }
+    .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.hero-ctas .btn {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: normal;
+    text-align: center;
+}
     .consult-ctas { flex-direction: column; align-items: stretch; }
     .consult-ctas .btn { justify-content: center; }
 }
