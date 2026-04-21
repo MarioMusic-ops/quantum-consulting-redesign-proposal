@@ -1669,6 +1669,183 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     align-items: stretch;
 }
 
+
+/* =========================================================
+   Expansion Preview Section
+   ========================================================= */
+.expansion-preview {
+    padding: 40px 32px 110px;
+    background:
+        radial-gradient(circle at 15% 20%, rgba(142,202,230,0.18) 0%, transparent 35%),
+        radial-gradient(circle at 85% 80%, rgba(59,130,246,0.10) 0%, transparent 40%),
+        linear-gradient(180deg, #FFFFFF 0%, #F4F8FC 100%);
+    overflow: hidden;
+}
+
+.expansion-preview__inner {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.expansion-preview__head {
+    max-width: 700px;
+    margin-bottom: 34px;
+}
+
+.expansion-preview__rail {
+    position: relative;
+    display: flex;
+    gap: 18px;
+    overflow: hidden;
+    padding-right: 240px;
+    min-height: 260px;
+}
+
+.expansion-preview__card {
+    flex: 0 0 300px;
+    padding: 26px 24px;
+    border-radius: 28px;
+    background: var(--glass-bg-strong);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(18px) saturate(170%);
+    -webkit-backdrop-filter: blur(18px) saturate(170%);
+    box-shadow: 0 16px 36px rgba(20,50,90,0.10);
+    transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition);
+}
+
+.expansion-preview__card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 42px rgba(20,50,90,0.14);
+}
+
+.expansion-preview__tag {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    background: rgba(59,130,246,0.08);
+    color: var(--blue-deep);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.expansion-preview__card h3 {
+    font-size: 22px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+.expansion-preview__card p {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--ink-60);
+}
+
+.expansion-preview__fade {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 340px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 90px;
+    background: linear-gradient(
+        90deg,
+        rgba(244,248,252,0) 0%,
+        rgba(244,248,252,0.72) 28%,
+        rgba(244,248,252,0.94) 56%,
+        rgba(244,248,252,1) 100%
+    );
+    pointer-events: none;
+}
+
+.expansion-preview__message {
+    max-width: 240px;
+    text-align: left;
+}
+
+.expansion-preview__message-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.expansion-preview__message-copy {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--ink-60);
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+    .expansion-preview {
+        padding: 30px 24px 90px;
+    }
+
+    .expansion-preview__rail {
+        padding-right: 180px;
+    }
+
+    .expansion-preview__card {
+        flex: 0 0 270px;
+    }
+
+    .expansion-preview__fade {
+        width: 280px;
+        padding-left: 60px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+    .expansion-preview {
+        padding: 20px 20px 70px;
+    }
+
+    .expansion-preview__head {
+        margin-bottom: 26px;
+    }
+
+    .expansion-preview__rail {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding-right: 0;
+        min-height: auto;
+    }
+
+    .expansion-preview__card {
+        flex: none;
+        width: 100%;
+        border-radius: 24px;
+        padding: 24px 22px;
+    }
+
+    .expansion-preview__fade {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 12px 0 0;
+        background: none;
+        justify-content: flex-start;
+    }
+
+    .expansion-preview__message {
+        max-width: none;
+        padding: 6px 2px 0;
+    }
+}
+
+
 /* ----- Left column: info ----- */
 .contact-info {
     padding-right: 12px;
