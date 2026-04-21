@@ -1430,6 +1430,35 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     box-shadow: 0 24px 50px rgba(59,130,246,0.32);
 }
 
+.feature-card-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.t-feature .quote {
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+.t-feature .client-name {
+    color: #FFFFFF;
+}
+
+.t-feature .client-meta {
+    color: rgba(255,255,255,0.78);
+}
+
+.t-feature .quote-mark {
+    display: none;
+}
+
 .quote {
     font-size: 16px;
     line-height: 1.6;
