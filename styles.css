@@ -560,7 +560,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
         position: absolute;
         left: 28px;
         right: 28px;
-        bottom: 34px;
+        bottom: 88px;
         z-index: 6;
         animation: fadeInUpMobile 0.9s ease-out both;
     }
