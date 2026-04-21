@@ -1675,6 +1675,64 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
    ========================================================= */
 .expansion-preview {
     position: relative;
+}
+
+.expansion-preview__inner {
+    position: relative;
+}
+
+.expansion-preview__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background: rgba(244, 248, 252, 0.72);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 32px;
+}
+
+.expansion-preview__overlay-box {
+    max-width: 760px;
+    text-align: center;
+    padding: 34px 38px;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 20px 50px rgba(20, 50, 90, 0.12);
+}
+
+.expansion-preview__overlay-kicker {
+    margin-bottom: 14px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--blue-deep);
+}
+
+.expansion-preview__overlay-title {
+    font-size: clamp(28px, 4vw, 48px);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 14px;
+}
+
+.expansion-preview__overlay-copy {
+    max-width: 620px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--ink-60);
+}
+/* ------------------------------------- */
+.expansion-preview {
+    position: relative;
     padding: 36px 32px 110px;
     background:
         radial-gradient(circle at 14% 24%, rgba(142,202,230,0.14) 0%, transparent 34%),
