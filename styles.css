@@ -145,6 +145,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     text-underline-offset: 4px;
     text-decoration-thickness: 1.5px;
     padding: 14px 4px;
+    white-space: normal;
 }
 
 .btn-text:hover {
@@ -352,6 +353,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     padding-top: 110px;
     padding-bottom: 80px;
     overflow: hidden;
+}
+
+.hero-media {
+    position: static;
 }
 
 .hero-image {
@@ -1902,6 +1907,17 @@ a.ci-value:hover {
     }
 }
 
+@keyframes fadeInUpMobile {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* =========================================================
    Responsive — Tablet
    ========================================================= */
@@ -2032,11 +2048,13 @@ a.ci-value:hover {
         height: 22px;
     }
 
-   .hero-media {
-    position: relative;
-}
+    .hero {
+        min-height: auto;
+        padding-top: 90px;
+        padding-bottom: 24px;
+        overflow: visible;
+    }
 
-@media (max-width: 720px) {
     .hero-media {
         position: relative;
         margin: 0 12px;
@@ -2051,6 +2069,8 @@ a.ci-value:hover {
         margin: 0;
         height: 100%;
         border-radius: 0;
+        background-size: cover;
+        background-position: center;
     }
 
     .hero-tint {
@@ -2087,59 +2107,9 @@ a.ci-value:hover {
         color: #ffffff;
         text-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
     }
-}
-
-    .hero {
-        min-height: auto;
-        padding-top: 90px;
-        padding-bottom: 40px;
-    }
-
-    .hero-image {
-        position: relative;
-        inset: auto;
-        margin: 0 12px;
-        height: 460px;
-        border-radius: var(--radius-lg);
-    }
-
-    .hero-tint {
-        display: none;
-    }
-
-    .mobile-hero-text {
-        display: block;
-        position: absolute;
-        left: 28px;
-        right: 28px;
-        bottom: 88px;
-        z-index: 6;
-        animation: fadeInUpMobile 0.9s ease-out both;
-    }
-
-    .mobile-hero-text p {
-        margin: 0;
-        max-width: 240px;
-        font-size: 26px;
-        line-height: 1.1;
-        font-weight: 700;
-        letter-spacing: -0.03em;
-        color: #ffffff;
-        text-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
-    }
-
-    @keyframes fadeInUpMobile {
-        from {
-            opacity: 0;
-            transform: translateY(18px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
 
     .booking-card {
+        position: fixed;
         left: 10px;
         bottom: 14px;
         top: auto;
@@ -2208,24 +2178,12 @@ a.ci-value:hover {
     }
 
     .organic-shape {
-        position: relative;
-        bottom: auto;
-        left: auto;
-        margin: 24px 16px 0;
-        max-width: none;
-        padding: 32px 28px;
-        border-radius: 60px 30px 30px 30px;
+        display: none;
         animation: none;
     }
 
     .accepting-banner {
-        position: relative;
-        bottom: auto;
-        right: auto;
-        margin: 20px 16px 0;
-        justify-content: center;
-        text-align: center;
-        flex-wrap: wrap;
+        display: none;
         animation: none;
     }
 
@@ -2365,6 +2323,22 @@ a.ci-value:hover {
 
     .expansion-preview__message-title {
         font-size: 22px;
+    }
+
+    .expansion-preview__overlay {
+        position: absolute;
+        inset: 0;
+        padding: 18px;
+        border-radius: 24px;
+    }
+
+    .expansion-preview__overlay-box {
+        padding: 24px 22px;
+        border-radius: 22px;
+    }
+
+    .expansion-preview__overlay-title {
+        font-size: 26px;
     }
 
     .contact {
