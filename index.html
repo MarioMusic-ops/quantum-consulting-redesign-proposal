@@ -1,678 +1,824 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quantum Consulting Group LLC — A Journey to Mental Wellness</title>
-    <meta name="description" content="Quantum Consulting Group LLC offers compassionate mental health services including Project THRIVE, Medication Management, and Capacity Building. Now accepting new clients in Illinois, Missouri, and Texas." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantum Consulting Group LLC — A Journey to Mental Wellness</title>
+  <meta
+    name="description"
+    content="Quantum Consulting Group LLC offers compassionate mental health services including Project THRIVE, Medication Management, and Capacity Building. Now accepting new clients in Illinois, Missouri, and Texas."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- ===== TOP NAVIGATION ===== -->
-    <header class="navbar">
-  <div class="nav-inner">
-    <a href="#" class="brand" aria-label="Quantum Consulting Group LLC home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="qg" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#3B82F6"/>
-              <stop offset="100%" stop-color="#8ECAE6"/>
-            </linearGradient>
-          </defs>
-          <circle cx="16" cy="16" r="13" fill="none" stroke="url(#qg)" stroke-width="3"/>
-          <path d="M21 21 L27 27" stroke="url(#qg)" stroke-width="3" stroke-linecap="round"/>
-        </svg>
-      </span>
-      <span class="brand-text">
-        <strong>Quantum</strong>
-        <em>Consulting Group LLC</em>
-      </span>
-    </a>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand" aria-label="Quantum Consulting Group LLC home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="qg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#3B82F6"></stop>
+                <stop offset="100%" stop-color="#8ECAE6"></stop>
+              </linearGradient>
+            </defs>
+            <circle cx="16" cy="16" r="13" fill="none" stroke="url(#qg)" stroke-width="3"></circle>
+            <path d="M21 21 L27 27" stroke="url(#qg)" stroke-width="3" stroke-linecap="round"></path>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>Quantum</strong>
+          <em>Consulting Group LLC</em>
+        </span>
+      </a>
 
-    <nav class="nav-links" aria-label="Primary navigation">
-      <a href="#home" class="active">Home</a>
-      <a href="#dr-cal">Meet Dr. Cal</a>
-      <a href="#team">Quantum Team</a>
-      <a href="#services">Services Provided</a>
-      <a href="#more">More <span class="caret" aria-hidden="true">▾</span></a>
-    </nav>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Meet Dr. Cal</a>
+        <a href="#about">Quantum Team</a>
+        <a href="#services">Services Provided</a>
+        <a href="#expansion-preview">More <span class="caret" aria-hidden="true">▾</span></a>
+      </nav>
 
-    <a href="#client-form" class="btn btn-ghost-pill nav-cta">
-      Client Interest Form!
-      <span class="btn-arrow" aria-hidden="true">→</span>
-    </a>
-
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-
-  <div class="mobile-menu" id="mobile-menu">
-    <nav class="mobile-menu-links" aria-label="Mobile navigation">
-      <a href="#home">Home</a>
-      <a href="#dr-cal">Meet Dr. Cal</a>
-      <a href="#team">Quantum Team</a>
-      <a href="#services">Services Provided</a>
-      <a href="#more">More</a>
-      <a href="#client-form" class="mobile-menu-cta">Client Interest Form!</a>
-    </nav>
-  </div>
-</header>
-
-    <main>
-        <!-- ===== HERO SECTION ===== -->
-<section class="hero" id="home">
-  <div class="hero-media">
-    <div
-      class="hero-image"
-      role="img"
-      aria-label="A joyful woman outdoors"
-    ></div>
-
-    <div class="hero-tint" aria-hidden="true"></div>
-
-    <div class="mobile-hero-text">
-      <p>
-        Take your first step today!<br>
-        If you want to go fast, go alone. If you want to go far, go together!
-      </p>
-    </div>
-  </div>
-
-  <aside
-    class="floating booking-card hero-load hero-load-delay-3"
-    aria-label="Book a schedule"
-  >
-    <div class="booking-head">
-      <div>
-        <p class="booking-eyebrow">Book Schedule</p>
-        <p class="booking-month">April 2026</p>
-      </div>
-
-      <div class="booking-icon" aria-hidden="true">
-        <svg
-          viewBox="0 0 24 24"
-          width="20"
-          height="20"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <rect x="3" y="5" width="18" height="16" rx="3"></rect>
-          <path d="M3 9h18"></path>
-          <path d="M8 3v4"></path>
-          <path d="M16 3v4"></path>
-        </svg>
-      </div>
-    </div>
-
-    <div class="dates">
-      <div class="date"><span class="dow">Mon</span><span class="dnum">21</span></div>
-      <div class="date"><span class="dow">Tue</span><span class="dnum">22</span></div>
-      <div class="date active"><span class="dow">Wed</span><span class="dnum">23</span></div>
-      <div class="date"><span class="dow">Thu</span><span class="dnum">24</span></div>
-      <div class="date"><span class="dow">Fri</span><span class="dnum">25</span></div>
-    </div>
-
-    <div class="booking-foot">
-      <span class="dot"></span>
-      <p>15-min consultation · 10:30 AM</p>
-    </div>
-  </aside>
-
-  <div class="organic-shape hero-load hero-load-delay-1">
-    <p class="hero-eyebrow">Quantum Consulting Group · Mental Wellness</p>
-
-    <h1 class="hero-title">
-      A Journey to<br>
-      Mental Wellness
-    </h1>
-
-    <p class="hero-sub">
-      Compassionate, evidence-based therapy and psychiatric care designed
-      to meet you exactly where you are — and walk with you forward.
-    </p>
-
-    <div class="hero-ctas">
-      <a href="#consultation" class="btn btn-primary">
-        Book a 15 Minute Consultation
+      <a href="#client-form" class="btn btn-ghost-pill nav-cta">
+        Client Interest Form!
         <span class="btn-arrow" aria-hidden="true">→</span>
       </a>
 
-      <a href="#services" class="btn btn-text">
-        If you want to go fast, go alone. If you want to go far, go together!
-      </a>
-    </div>
-  </div>
-
-  <div class="accepting-banner hero-load hero-load-delay-2" role="note">
-    <span class="live-dot" aria-hidden="true"></span>
-    <strong>WE ARE ACCEPTING NEW CLIENTS</strong>
-    <span class="banner-states">in Illinois, Missouri, &amp; Texas!</span>
-  </div>
-</section>
-
-        <!-- ===== ABOUT SECTION ===== -->
-        <section class="about" id="about">
-            <div class="about-inner">
-                <!-- Left column: meditation image -->
-                <div class="about-media reveal-fade-up">
-                    <div class="media-frame">
-                        <div class="media-image" role="img" aria-label="A woman meditating peacefully at sunset"></div>
-                        <button type="button" class="glass-btn">
-                            <span class="play-icon" aria-hidden="true">
-                                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                            </span>
-                            Therapy Session
-                        </button>
-                        <!-- <div class="media-badge">
-                            <span class="badge-num">98%</span>
-                            <span class="badge-text">Client<br/>Satisfaction</span>
-                        </div> -->
-                    </div>
-                </div>
-
-                <!-- Right column: copy + features -->
-                <div class="about-content reveal-fade-up reveal-delay-1">
-                    <p class="eyebrow">About Quantum</p>
-                    <h2 class="section-title">You Deserve to be<br/><span class="title-accent">Mentally Healthy</span></h2>
-                    <p class="lead">
-                        At Quantum Consulting Group LLC, we believe wellness is a journey, not a
-                        destination. Our team of licensed clinicians, psychiatric providers, and
-                        community advocates work alongside you to build resilience, restore balance,
-                        and rediscover joy — through services tailored to your story.
-                    </p>
-                    <a href="#consultation" class="btn btn-primary">
-                        Get Started
-                        <span class="btn-arrow" aria-hidden="true">→</span>
-                    </a>
-
-                    <div class="feature-row">
-                        <article class="feature feature-blue reveal-fade-up reveal-delay-1">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
-                            </div>
-                            <h3>Confidentiality</h3>
-                            <p>Your story stays yours. HIPAA-secure platforms and discreet, judgment-free care from start to finish.</p>
-                        </article>
-
-                        <article class="feature feature-white reveal-fade-up reveal-delay-2">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
-                            </div>
-                            <h3>Accessibility</h3>
-                            <p>Telehealth and in-person options across IL, MO, &amp; TX — flexible scheduling that fits real life.</p>
-                        </article>
-
-                        <article class="feature feature-white reveal-fade-up reveal-delay-3">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 11a4 4 0 1 0-4-4"/><path d="M8 11a4 4 0 1 1 4-4"/><path d="M3 21v-2a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"/></svg>
-                            </div>
-                            <h3>Community</h3>
-                            <p>Healing happens together. Connect with peer groups, family supports, and culturally-attuned providers.</p>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== SERVICES SECTION ===== -->
-        <section class="services" id="services">
-            <div class="services-inner">
-                <div class="services-head reveal-fade-up">
-                    <p class="eyebrow eyebrow-light">Services Provided</p>
-                    <h2 class="section-title section-title-light">Find out more about<br/>our services</h2>
-                    <p class="lead lead-light">
-                        From early intervention to long-term care, our service lines are
-                        designed to meet you wherever you are on your wellness journey.
-                    </p>
-                </div>
-
-                <div class="service-grid">
-                   <article class="service-card service-feature reveal-fade-up reveal-delay-1">
-                        <span class="service-tag">Flagship Program</span>
-                        <h3>Project THRIVE</h3>
-                        <p>A holistic, strengths-based program supporting youth and adults in building life skills, emotional regulation, and lasting confidence.</p>
-                        <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
-                    </article>
-
-                   <article class="service-card reveal-fade-up reveal-delay-2">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 3.75 8.25 6l-3 3a3.18 3.18 0 0 0 4.5 4.5l3-3 2.25-2.25"/><path d="m13.5 20.25 2.25-2.25 3-3a3.18 3.18 0 0 0-4.5-4.5l-3 3-2.25 2.25"/></svg>
-                        </div>
-                        <h3>Medication Management</h3>
-                        <p>Board-certified psychiatric providers offering thoughtful, ongoing medication evaluation and adjustment.</p>
-                        <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
-                    </article>
-
-                     <article class="service-card reveal-fade-up reveal-delay-3">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21V12h6v9"/></svg>
-                        </div>
-                        <h3>Capacity Building Services</h3>
-                        <p>Skill-building, advocacy, and goal-setting supports that empower individuals and families to thrive in their communities.</p>
-                        <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
-                    </article>
-
-                    <article class="service-card reveal-fade-up reveal-delay-4">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a14 14 0 0 1 0 18M3 12h18"/></svg>
-                        </div>
-                        <h3>Quantum Services</h3>
-                        <p>Tailored consulting, training, and clinical partnerships for organizations committed to whole-person mental health.</p>
-                        <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== TESTIMONIALS SECTION ===== -->
-        <section class="testimonials" id="testimonials">
-            <div class="testimonials-inner">
-                 <div class="testimonials-head reveal-fade-up">
-                    <p class="eyebrow">Client Voices</p>
-                    <h2 class="section-title">Stories from people<br/><span class="title-accent">who chose to thrive</span></h2>
-                    <p class="lead">
-                        Real reflections from individuals and families who have walked
-                        the Quantum journey with us. Names have been shared with permission.
-                    </p>
-                </div>
-
-                <div class="testimonial-stats">
-                    <div class="stat-pill reveal-fade-up reveal-delay-1">
-                        <span class="stat-num">4.9<span class="stat-unit">/5</span></span>
-                        <span class="stat-label">Average client rating</span>
-                    </div>
-                    <div class="stat-pill reveal-fade-up reveal-delay-2">
-                        <span class="stat-num">12k<span class="stat-unit">+</span></span>
-                        <span class="stat-label">Sessions delivered</span>
-                    </div>
-                    <div class="stat-pill reveal-fade-up reveal-delay-3">
-                        <span class="stat-num">3<span class="stat-unit">states</span></span>
-                        <span class="stat-label">IL · MO · TX</span>
-                    </div>
-                </div>
-
-               <div class="testimonial-grid">
-  <article class="testimonial t-feature reveal-fade-up reveal-delay-1">
-    <p class="feature-card-label">Celebrity Spotlight</p>
-
-    <p class="quote">
-      We’re honored to have received support and visibility from Cedric the Entertainer, helping bring attention to the important mental health services we provide to Black, Brown, and LGBT+ communities.
-    </p>
-
-    <div class="testimonial-photo-wrap">
-      <img
-        src="assets/testimonial-person.jpg"
-        alt="Cedric the Entertainer"
-        class="testimonial-photo"
-      />
+      <button
+        class="menu-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
 
-    <div class="client">
-      <div>
-        <p class="client-name">Cedric the Entertainer</p>
-        <p class="client-meta">Featured Support</p>
-      </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <nav class="mobile-menu-links" aria-label="Mobile navigation">
+        <a href="#home">Home</a>
+        <a href="#about">Meet Dr. Cal</a>
+        <a href="#about">Quantum Team</a>
+        <a href="#services">Services Provided</a>
+        <a href="#expansion-preview">More</a>
+        <a href="#client-form" class="mobile-menu-cta">Client Interest Form!</a>
+      </nav>
     </div>
-  </article>
+  </header>
 
-                     <article class="testimonial reveal-fade-up reveal-delay-2">
-                        <div class="quote-mark" aria-hidden="true">“</div>
-                        <p class="quote">
-                            Medication management used to feel intimidating. The Quantum
-                            psychiatric team listened, adjusted thoughtfully, and finally
-                            helped me find a plan that fits my life.
-                        </p>
-                        <div class="stars" aria-label="Rated 5 out of 5">
-                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-                        </div>
-                        <div class="client">
-                            <span class="client-avatar" style="background-image:url('assets/avatar2.png')"></span>
-                            <div>
-                                <p class="client-name">Jordan T.</p>
-                                <p class="client-meta">Medication Management · St. Louis, MO</p>
-                            </div>
-                        </div>
-                    </article>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-media">
+        <div class="hero-image" role="img" aria-label="A joyful woman outdoors"></div>
+        <div class="hero-tint" aria-hidden="true"></div>
 
-                    <article class="testimonial reveal-fade-up reveal-delay-3">
-                        <div class="quote-mark" aria-hidden="true">“</div>
-                        <p class="quote">
-                            Capacity Building gave my son confidence I didn't know was
-                            possible. Our coordinator showed up with patience and a plan
-                            — every single week.
-                        </p>
-                        <div class="stars" aria-label="Rated 5 out of 5">
-                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-                        </div>
-                        <div class="client">
-                            <span class="client-avatar" style="background-image:url('assets/avatar1.png')"></span>
-                            <div>
-                                <p class="client-name">Alicia M.</p>
-                                <p class="client-meta">Capacity Building · Houston, TX</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="testimonial reveal-fade-up reveal-delay-4">
-                        <div class="quote-mark" aria-hidden="true">“</div>
-                        <p class="quote">
-                            Telehealth with Quantum is the most human virtual care I've
-                            experienced. Booking is effortless and my therapist genuinely
-                            remembers the small things.
-                        </p>
-                        <div class="stars" aria-label="Rated 5 out of 5">
-                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-                        </div>
-                        <div class="client">
-                            <span class="client-avatar" style="background-image:url('assets/avatar3.jpg')"></span>
-                            <div>
-                                <p class="client-name">Devon W.</p>
-                                <p class="client-meta">Quantum Services · Springfield, IL</p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== CONSULTATION CTA ===== -->
-        <section class="consult" id="consultation">
-            <div class="consult-card">
-                <div class="consult-copy reveal-fade-up">
-                    <p class="eyebrow">Ready when you are</p>
-                    <h2 class="section-title">Book a 15 Minute<br/>Consultation!</h2>
-                    <p class="lead">
-                        If you would like to discuss our services, book an appointment today.
-                        It's free, confidential, and there's no commitment.
-                    </p>
-                    <div class="consult-ctas">
-                        <a href="#" class="btn btn-primary">Book Appointment <span class="btn-arrow" aria-hidden="true">→</span></a>
-                        <a href="#client-form" class="btn btn-ghost">Client Interest Form</a>
-                    </div>
-                </div>
-                <div class="consult-aside reveal-fade-up reveal-delay-2">
-                    <div class="consult-stat">
-                        <span class="num">15</span>
-                        <span class="unit">min</span>
-                    </div>
-                    <p class="consult-stat-label">Free, no-pressure intro call with a Quantum care coordinator.</p>
-                </div>
-            </div>
-        </section>
-
-<!--expansion preview  -->
- <section class="expansion-preview" id="expansion-preview">
-  <div class="expansion-preview__inner">
-    <div class="expansion-preview__head reveal-fade-up">
-      <p class="eyebrow">Room to Expand</p>
-      <h2 class="section-title">
-        A flexible foundation for<br />
-        <span class="title-accent">deeper storytelling</span>
-      </h2>
-    </div>
-
-    <div class="expansion-preview__rail">
-      <article class="expansion-preview__card reveal-fade-up reveal-delay-1">
-        <span class="expansion-preview__tag">Specialty Audience</span>
-        <h3>Military &amp; Veterans Support</h3>
-        <p>
-          Dedicated messaging, tailored support language, and audience-specific
-          trust content for veterans, service members, and military families.
-        </p>
-      </article>
-
-      <article class="expansion-preview__card reveal-fade-up reveal-delay-2">
-        <span class="expansion-preview__tag">Social Proof</span>
-        <h3>More Client Stories</h3>
-        <p>
-          Additional testimonials, community highlights, and expanded stories that
-          deepen credibility and strengthen emotional connection.
-        </p>
-      </article>
-
-      <article class="expansion-preview__card reveal-fade-up reveal-delay-3">
-        <span class="expansion-preview__tag">Trust Building</span>
-        <h3>Meet the Team</h3>
-        <p>
-          Provider introductions, care philosophy, credentials, and approachable
-          profiles that make the experience feel more personal and reassuring.
-        </p>
-      </article>
-
-      <article class="expansion-preview__card reveal-fade-up reveal-delay-4">
-        <span class="expansion-preview__tag">Helpful Content</span>
-        <h3>FAQs &amp; Resources</h3>
-        <p>
-          Helpful answers, next-step guidance, and educational content that make
-          the site feel more supportive, informative, and complete.
-        </p>
-      </article>
-
-      <div class="expansion-preview__fade">
-        <div class="expansion-preview__message">
-          <p class="expansion-preview__message-kicker">Concept Preview</p>
-          <p class="expansion-preview__message-title">This direction leaves room to grow</p>
-          <p class="expansion-preview__message-copy">
-            The current mockup presents a polished visual foundation, with flexibility
-            for future pages, specialty sections, and deeper supporting content.
+        <div class="mobile-hero-text">
+          <p>
+            Take your first step today!<br />
+            If you want to go fast, go alone. If you want to go far, go together!
           </p>
         </div>
       </div>
 
-      <div class="expansion-preview__overlay">
-        <div class="expansion-preview__overlay-box reveal-fade-up reveal-delay-1">
-          <p class="expansion-preview__overlay-kicker">Mockup Note</p>
-          <h3 class="expansion-preview__overlay-title">
-            This section represents additional content that could be included on the website
-          </h3>
-          <p class="expansion-preview__overlay-copy">
-            Examples may include military-focused pages, more testimonials, team highlights,
-            FAQs, specialty programs, and other trust-building or audience-specific sections.
+      <aside class="floating booking-card hero-load hero-load-delay-3" aria-label="Book a schedule">
+        <div class="booking-head">
+          <div>
+            <p class="booking-eyebrow">Book Schedule</p>
+            <p class="booking-month">April 2026</p>
+          </div>
+          <div class="booking-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="5" width="18" height="16" rx="3"></rect>
+              <path d="M3 9h18M8 3v4M16 3v4"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="dates">
+          <div class="date"><span class="dow">Mon</span><span class="dnum">21</span></div>
+          <div class="date"><span class="dow">Tue</span><span class="dnum">22</span></div>
+          <div class="date active"><span class="dow">Wed</span><span class="dnum">23</span></div>
+          <div class="date"><span class="dow">Thu</span><span class="dnum">24</span></div>
+          <div class="date"><span class="dow">Fri</span><span class="dnum">25</span></div>
+        </div>
+
+        <div class="booking-foot">
+          <span class="dot"></span>
+          <p>15-min consultation · 10:30 AM</p>
+        </div>
+      </aside>
+
+      <div class="organic-shape hero-load hero-load-delay-1">
+        <p class="hero-eyebrow">Quantum Consulting Group · Mental Wellness</p>
+        <h1 class="hero-title">A Journey to<br />Mental Wellness</h1>
+        <p class="hero-sub">
+          Compassionate, evidence-based therapy and psychiatric care designed to meet you
+          exactly where you are — and walk with you forward.
+        </p>
+        <div class="hero-ctas">
+          <a href="#consultation" class="btn btn-primary">
+            Book a 15 Minute Consultation
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#services" class="btn btn-text">
+            If you want to go fast, go alone. If you want to go far, go together!
+          </a>
+        </div>
+      </div>
+
+      <div class="accepting-banner hero-load hero-load-delay-2" role="note">
+        <span class="live-dot" aria-hidden="true"></span>
+        <strong>WE ARE ACCEPTING NEW CLIENTS</strong>
+        <span class="banner-states">in Illinois, Missouri, &amp; Texas!</span>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner">
+        <div class="about-media reveal-fade-up">
+          <div class="media-frame">
+            <div
+              class="media-image"
+              role="img"
+              aria-label="A woman meditating peacefully at sunset"
+            ></div>
+            <button type="button" class="glass-btn">
+              <span class="play-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                  <path d="M8 5v14l11-7z"></path>
+                </svg>
+              </span>
+              Therapy Session
+            </button>
+          </div>
+        </div>
+
+        <div class="about-content reveal-fade-up reveal-delay-1">
+          <p class="eyebrow">About Quantum</p>
+          <h2 class="section-title">
+            You Deserve to be<br /><span class="title-accent">Mentally Healthy</span>
+          </h2>
+          <p class="lead">
+            At Quantum Consulting Group LLC, we believe wellness is a journey, not a
+            destination. Our team of licensed clinicians, psychiatric providers, and
+            community advocates work alongside you to build resilience, restore balance,
+            and rediscover joy — through services tailored to your story.
+          </p>
+          <a href="#consultation" class="btn btn-primary">
+            Get Started
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <div class="feature-row">
+            <article class="feature feature-blue reveal-fade-up reveal-delay-1">
+              <div class="feature-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="4" y="11" width="16" height="10" rx="2"></rect>
+                  <path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
+                </svg>
+              </div>
+              <h3>Confidentiality</h3>
+              <p>
+                Your story stays yours. HIPAA-secure platforms and discreet, judgment-free
+                care from start to finish.
+              </p>
+            </article>
+
+            <article class="feature feature-white reveal-fade-up reveal-delay-2">
+              <div class="feature-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path>
+                </svg>
+              </div>
+              <h3>Accessibility</h3>
+              <p>
+                Telehealth and in-person options across IL, MO, &amp; TX — flexible
+                scheduling that fits real life.
+              </p>
+            </article>
+
+            <article class="feature feature-white reveal-fade-up reveal-delay-3">
+              <div class="feature-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M16 11a4 4 0 1 0-4-4"></path>
+                  <path d="M8 11a4 4 0 1 1 4-4"></path>
+                  <path d="M3 21v-2a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"></path>
+                </svg>
+              </div>
+              <h3>Community</h3>
+              <p>
+                Healing happens together. Connect with peer groups, family supports, and
+                culturally-attuned providers.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="services-inner">
+        <div class="services-head reveal-fade-up">
+          <p class="eyebrow eyebrow-light">Services Provided</p>
+          <h2 class="section-title section-title-light">
+            Find out more about<br />our services
+          </h2>
+          <p class="lead lead-light">
+            From early intervention to long-term care, our service lines are designed to
+            meet you wherever you are on your wellness journey.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card service-feature reveal-fade-up reveal-delay-1">
+            <span class="service-tag">Flagship Program</span>
+            <h3>Project THRIVE</h3>
+            <p>
+              A holistic, strengths-based program supporting youth and adults in building
+              life skills, emotional regulation, and lasting confidence.
+            </p>
+            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal-fade-up reveal-delay-2">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M10.5 3.75 8.25 6l-3 3a3.18 3.18 0 0 0 4.5 4.5l3-3 2.25-2.25"></path>
+                <path d="m13.5 20.25 2.25-2.25 3-3a3.18 3.18 0 0 0-4.5-4.5l-3 3-2.25 2.25"></path>
+              </svg>
+            </div>
+            <h3>Medication Management</h3>
+            <p>
+              Board-certified psychiatric providers offering thoughtful, ongoing
+              medication evaluation and adjustment.
+            </p>
+            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal-fade-up reveal-delay-3">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M3 21V8l9-5 9 5v13"></path>
+                <path d="M9 21V12h6v9"></path>
+              </svg>
+            </div>
+            <h3>Capacity Building Services</h3>
+            <p>
+              Skill-building, advocacy, and goal-setting supports that empower individuals
+              and families to thrive in their communities.
+            </p>
+            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal-fade-up reveal-delay-4">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M12 3a14 14 0 0 1 0 18M3 12h18"></path>
+              </svg>
+            </div>
+            <h3>Quantum Services</h3>
+            <p>
+              Tailored consulting, training, and clinical partnerships for organizations
+              committed to whole-person mental health.
+            </p>
+            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-inner">
+        <div class="testimonials-head reveal-fade-up">
+          <p class="eyebrow">Client Voices</p>
+          <h2 class="section-title">
+            Stories from people<br /><span class="title-accent">who chose to thrive</span>
+          </h2>
+          <p class="lead">
+            Real reflections from individuals and families who have walked the Quantum
+            journey with us. Names have been shared with permission.
+          </p>
+        </div>
+
+        <div class="testimonial-stats">
+          <div class="stat-pill reveal-fade-up reveal-delay-1">
+            <span class="stat-num">4.9<span class="stat-unit">/5</span></span>
+            <span class="stat-label">Average client rating</span>
+          </div>
+          <div class="stat-pill reveal-fade-up reveal-delay-2">
+            <span class="stat-num">12k<span class="stat-unit">+</span></span>
+            <span class="stat-label">Sessions delivered</span>
+          </div>
+          <div class="stat-pill reveal-fade-up reveal-delay-3">
+            <span class="stat-num">3<span class="stat-unit">states</span></span>
+            <span class="stat-label">IL · MO · TX</span>
+          </div>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial t-feature reveal-fade-up reveal-delay-1">
+            <p class="feature-card-label">Celebrity Spotlight</p>
+
+            <p class="quote">
+              We’re honored to have received support and visibility from Cedric the
+              Entertainer, helping bring attention to the important mental health services
+              we provide to Black, Brown, and LGBT+ communities.
+            </p>
+
+            <div class="testimonial-photo-wrap">
+              <img
+                src="assets/testimonial-person.jpg"
+                alt="Cedric the Entertainer"
+                class="testimonial-photo"
+              />
+            </div>
+
+            <div class="client">
+              <div>
+                <p class="client-name">Cedric the Entertainer</p>
+                <p class="client-meta">Featured Support</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial reveal-fade-up reveal-delay-2">
+            <div class="quote-mark" aria-hidden="true">“</div>
+            <p class="quote">
+              Medication management used to feel intimidating. The Quantum psychiatric team
+              listened, adjusted thoughtfully, and finally helped me find a plan that fits
+              my life.
+            </p>
+            <div class="stars" aria-label="Rated 5 out of 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="client">
+              <span class="client-avatar" style="background-image:url('assets/avatar2.png')"></span>
+              <div>
+                <p class="client-name">Jordan T.</p>
+                <p class="client-meta">Medication Management · St. Louis, MO</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial reveal-fade-up reveal-delay-3">
+            <div class="quote-mark" aria-hidden="true">“</div>
+            <p class="quote">
+              Capacity Building gave my son confidence I didn't know was possible. Our
+              coordinator showed up with patience and a plan — every single week.
+            </p>
+            <div class="stars" aria-label="Rated 5 out of 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="client">
+              <span class="client-avatar" style="background-image:url('assets/avatar1.png')"></span>
+              <div>
+                <p class="client-name">Alicia M.</p>
+                <p class="client-meta">Capacity Building · Houston, TX</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial reveal-fade-up reveal-delay-4">
+            <div class="quote-mark" aria-hidden="true">“</div>
+            <p class="quote">
+              Telehealth with Quantum is the most human virtual care I've experienced.
+              Booking is effortless and my therapist genuinely remembers the small things.
+            </p>
+            <div class="stars" aria-label="Rated 5 out of 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="client">
+              <span class="client-avatar" style="background-image:url('assets/avatar3.jpg')"></span>
+              <div>
+                <p class="client-name">Devon W.</p>
+                <p class="client-meta">Quantum Services · Springfield, IL</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="consult" id="consultation">
+      <div class="consult-card">
+        <div class="consult-copy reveal-fade-up">
+          <p class="eyebrow">Ready when you are</p>
+          <h2 class="section-title">Book a 15 Minute<br />Consultation!</h2>
+          <p class="lead">
+            If you would like to discuss our services, book an appointment today. It's
+            free, confidential, and there's no commitment.
+          </p>
+          <div class="consult-ctas">
+            <a href="#" class="btn btn-primary">
+              Book Appointment <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="#client-form" class="btn btn-ghost">Client Interest Form</a>
+          </div>
+        </div>
+
+        <div class="consult-aside reveal-fade-up reveal-delay-2">
+          <div class="consult-stat">
+            <span class="num">15</span>
+            <span class="unit">min</span>
+          </div>
+          <p class="consult-stat-label">
+            Free, no-pressure intro call with a Quantum care coordinator.
           </p>
         </div>
       </div>
+    </section>
+
+    <section class="expansion-preview" id="expansion-preview">
+      <div class="expansion-preview__inner">
+        <div class="expansion-preview__head reveal-fade-up">
+          <p class="eyebrow">Room to Expand</p>
+          <h2 class="section-title">
+            A flexible foundation for<br /><span class="title-accent">deeper storytelling</span>
+          </h2>
+        </div>
+
+        <div class="expansion-preview__rail">
+          <article class="expansion-preview__card">
+            <span class="expansion-preview__tag">Specialty Audience</span>
+            <h3>Military &amp; Veterans Support</h3>
+            <p>
+              Dedicated messaging, tailored support language, and audience-specific trust
+              content for veterans, service members, and military families.
+            </p>
+          </article>
+
+          <article class="expansion-preview__card">
+            <span class="expansion-preview__tag">Social Proof</span>
+            <h3>More Client Stories</h3>
+            <p>
+              Additional testimonials, community highlights, and expanded stories that
+              deepen credibility and strengthen emotional connection.
+            </p>
+          </article>
+
+          <article class="expansion-preview__card">
+            <span class="expansion-preview__tag">Trust Building</span>
+            <h3>Meet the Team</h3>
+            <p>
+              Provider introductions, care philosophy, credentials, and approachable
+              profiles that make the experience feel more personal and reassuring.
+            </p>
+          </article>
+
+          <article class="expansion-preview__card">
+            <span class="expansion-preview__tag">Helpful Content</span>
+            <h3>FAQs &amp; Resources</h3>
+            <p>
+              Helpful answers, next-step guidance, and educational content that make the
+              site feel more supportive, informative, and complete.
+            </p>
+          </article>
+
+          <div class="expansion-preview__fade">
+            <div class="expansion-preview__message">
+              <p class="expansion-preview__message-kicker">Concept Preview</p>
+              <p class="expansion-preview__message-title">This direction leaves room to grow</p>
+              <p class="expansion-preview__message-copy">
+                The current mockup presents a polished visual foundation, with flexibility
+                for future pages, specialty sections, and deeper supporting content.
+              </p>
+            </div>
+          </div>
+
+          <div class="expansion-preview__overlay">
+            <div class="expansion-preview__overlay-box reveal-fade-up reveal-delay-1">
+              <p class="expansion-preview__overlay-kicker">Mockup Note</p>
+              <h3 class="expansion-preview__overlay-title">
+                This section represents additional content that could be included on the website
+              </h3>
+              <p class="expansion-preview__overlay-copy">
+                Examples may include military-focused pages, more testimonials, team
+                highlights, FAQs, specialty programs, and other trust-building or
+                audience-specific sections.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-info reveal-fade-up">
+          <p class="eyebrow">Get in Touch</p>
+          <h2 class="section-title">
+            Let's start the<br /><span class="title-accent">conversation</span>
+          </h2>
+          <p class="lead">
+            Whether you're a prospective client, a referring provider, or a community
+            partner, our care coordinators are ready to listen and guide you to the right
+            next step.
+          </p>
+
+          <ul class="contact-list" aria-label="Contact methods">
+            <li>
+              <span class="ci-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"></path>
+                </svg>
+              </span>
+              <div>
+                <p class="ci-label">Call us</p>
+                <a href="tel:+18005551234" class="ci-value">(800) 555-1234</a>
+                <p class="ci-meta">Mon–Fri, 8:00 AM – 7:00 PM CT</p>
+              </div>
+            </li>
+
+            <li>
+              <span class="ci-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                  <path d="m4 7 8 6 8-6"></path>
+                </svg>
+              </span>
+              <div>
+                <p class="ci-label">Email us</p>
+                <a href="mailto:hello@quantumcg.com" class="ci-value">hello@quantumcg.com</a>
+                <p class="ci-meta">We respond within 1 business day</p>
+              </div>
+            </li>
+
+            <li>
+              <span class="ci-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </span>
+              <div>
+                <p class="ci-label">Visit or telehealth</p>
+                <p class="ci-value">Illinois · Missouri · Texas</p>
+                <p class="ci-meta">In-person and HIPAA-secure virtual care</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact-hours">
+            <span class="hours-dot" aria-hidden="true"></span>
+            Currently accepting new clients
+          </div>
+        </div>
+
+        <form
+          class="contact-form reveal-fade-up reveal-delay-2"
+          id="client-form"
+          aria-label="Client interest form"
+          onsubmit="return false;"
+        >
+          <p class="form-eyebrow">Client Interest Form</p>
+          <h3 class="form-title">Send us a message</h3>
+          <p class="form-sub">
+            Share a few details and a Quantum care coordinator will reach out personally.
+          </p>
+
+          <div class="field-row">
+            <label class="field">
+              <span>First name</span>
+              <input type="text" name="first_name" placeholder="Jane" autocomplete="given-name" required />
+            </label>
+            <label class="field">
+              <span>Last name</span>
+              <input type="text" name="last_name" placeholder="Doe" autocomplete="family-name" required />
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+            </label>
+            <label class="field">
+              <span>Phone</span>
+              <input type="tel" name="phone" placeholder="(555) 123-4567" autocomplete="tel" />
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span>State</span>
+              <select name="state" required>
+                <option value="" disabled selected>Select your state</option>
+                <option>Illinois</option>
+                <option>Missouri</option>
+                <option>Texas</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Service of interest</span>
+              <select name="service" required>
+                <option value="" disabled selected>Choose a service</option>
+                <option>Project THRIVE</option>
+                <option>Medication Management</option>
+                <option>Capacity Building Services</option>
+                <option>Quantum Services</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>How can we help?</span>
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Tell us a little about what you're looking for..."
+            ></textarea>
+          </label>
+
+          <label class="checkbox">
+            <input type="checkbox" name="consent" required />
+            <span>
+              I agree to be contacted by Quantum Consulting Group regarding my inquiry.
+              (HIPAA-secure)
+            </span>
+          </label>
+
+          <button type="submit" class="btn btn-primary form-submit">
+            Send Message
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </button>
+
+          <p class="form-foot">
+            By submitting, you acknowledge our Privacy Policy &amp; HIPAA Notice.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">
+          <strong>Quantum</strong>
+          <em>Consulting Group LLC</em>
+        </span>
+        <p>A Journey to Mental Wellness — serving Illinois, Missouri &amp; Texas.</p>
+      </div>
+
+      <div class="footer-cols">
+        <div>
+          <h4>Company</h4>
+          <a href="#about">Meet Dr. Cal</a>
+          <a href="#about">Quantum Team</a>
+          <a href="#">Careers</a>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <a href="#services">Project THRIVE</a>
+          <a href="#services">Medication Management</a>
+          <a href="#services">Capacity Building</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="#client-form">Client Interest Form</a>
+          <a href="#consultation">Book a Consultation</a>
+          <a href="mailto:support@quantumcg.com">support@quantumcg.com</a>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
 
-        
+    <div class="footer-bottom">
+      <p>© 2026 Quantum Consulting Group LLC. All rights reserved.</p>
+      <p>Privacy · Terms · HIPAA Notice</p>
+    </div>
+  </footer>
 
-        <!-- ===== CONTACT SECTION ===== -->
-        <section class="contact" id="contact">
-            <div class="contact-inner">
-               <div class="contact-info reveal-fade-up">
-                    <p class="eyebrow">Get in Touch</p>
-                    <h2 class="section-title">Let's start the<br/><span class="title-accent">conversation</span></h2>
-                    <p class="lead">
-                        Whether you're a prospective client, a referring provider, or a
-                        community partner, our care coordinators are ready to listen and
-                        guide you to the right next step.
-                    </p>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
 
-                    <ul class="contact-list" aria-label="Contact methods">
-                        <li>
-                            <span class="ci-icon" aria-hidden="true">
-                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
-                            </span>
-                            <div>
-                                <p class="ci-label">Call us</p>
-                                <a href="tel:+18005551234" class="ci-value">(800) 555-1234</a>
-                                <p class="ci-meta">Mon–Fri, 8:00 AM – 7:00 PM CT</p>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ci-icon" aria-hidden="true">
-                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
-                            </span>
-                            <div>
-                                <p class="ci-label">Email us</p>
-                                <a href="mailto:hello@quantumcg.com" class="ci-value">hello@quantumcg.com</a>
-                                <p class="ci-meta">We respond within 1 business day</p>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="ci-icon" aria-hidden="true">
-                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                            </span>
-                            <div>
-                                <p class="ci-label">Visit or telehealth</p>
-                                <p class="ci-value">Illinois · Missouri · Texas</p>
-                                <p class="ci-meta">In-person and HIPAA-secure virtual care</p>
-                            </div>
-                        </li>
-                    </ul>
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        const isOpen = mobileMenu.classList.contains('active');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.classList.toggle('is-open', isOpen);
+      });
+    }
 
-                    <div class="contact-hours">
-                        <span class="hours-dot" aria-hidden="true"></span>
-                        Currently accepting new clients
-                    </div>
-                </div>
+    const revealElements = document.querySelectorAll('.reveal-fade-up');
 
-                <form class="contact-form reveal-fade-up reveal-delay-2" id="client-form" aria-label="Client interest form" onsubmit="return false;">
-                    <p class="form-eyebrow">Client Interest Form</p>
-                    <h3 class="form-title">Send us a message</h3>
-                    <p class="form-sub">Share a few details and a Quantum care coordinator will reach out personally.</p>
-
-                    <div class="field-row">
-                        <label class="field">
-                            <span>First name</span>
-                            <input type="text" name="first_name" placeholder="Jane" autocomplete="given-name" required />
-                        </label>
-                        <label class="field">
-                            <span>Last name</span>
-                            <input type="text" name="last_name" placeholder="Doe" autocomplete="family-name" required />
-                        </label>
-                    </div>
-
-                    <div class="field-row">
-                        <label class="field">
-                            <span>Email</span>
-                            <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
-                        </label>
-                        <label class="field">
-                            <span>Phone</span>
-                            <input type="tel" name="phone" placeholder="(555) 123-4567" autocomplete="tel" />
-                        </label>
-                    </div>
-
-                    <div class="field-row">
-                        <label class="field">
-                            <span>State</span>
-                            <select name="state" required>
-                                <option value="" disabled selected>Select your state</option>
-                                <option>Illinois</option>
-                                <option>Missouri</option>
-                                <option>Texas</option>
-                                <option>Other</option>
-                            </select>
-                        </label>
-                        <label class="field">
-                            <span>Service of interest</span>
-                            <select name="service" required>
-                                <option value="" disabled selected>Choose a service</option>
-                                <option>Project THRIVE</option>
-                                <option>Medication Management</option>
-                                <option>Capacity Building Services</option>
-                                <option>Quantum Services</option>
-                                <option>Not sure yet</option>
-                            </select>
-                        </label>
-                    </div>
-
-                    <label class="field">
-                        <span>How can we help?</span>
-                        <textarea name="message" rows="4" placeholder="Tell us a little about what you're looking for..."></textarea>
-                    </label>
-
-                    <label class="checkbox">
-                        <input type="checkbox" name="consent" required />
-                        <span>I agree to be contacted by Quantum Consulting Group regarding my inquiry. (HIPAA-secure)</span>
-                    </label>
-
-                    <button type="submit" class="btn btn-primary form-submit">
-                        Send Message
-                        <span class="btn-arrow" aria-hidden="true">→</span>
-                    </button>
-                    <p class="form-foot">By submitting, you acknowledge our Privacy Policy &amp; HIPAA Notice.</p>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-        <div class="footer-inner">
-            <div class="footer-brand">
-                <span class="brand-text">
-                    <strong>Quantum</strong>
-                    <em>Consulting Group LLC</em>
-                </span>
-                <p>A Journey to Mental Wellness — serving Illinois, Missouri &amp; Texas.</p>
-            </div>
-            <div class="footer-cols">
-                <div>
-                    <h4>Company</h4>
-                    <a href="#">Meet Dr. Cal</a>
-                    <a href="#">Quantum Team</a>
-                    <a href="#">Careers</a>
-                </div>
-                <div>
-                    <h4>Services</h4>
-                    <a href="#">Project THRIVE</a>
-                    <a href="#">Medication Management</a>
-                    <a href="#">Capacity Building</a>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <a href="#">Client Interest Form</a>
-                    <a href="#">Book a Consultation</a>
-                    <a href="#">support@quantumcg.com</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2026 Quantum Consulting Group LLC. All rights reserved.</p>
-            <p>Privacy · Terms · HIPAA Notice</p>
-        </div>
-    </footer>
-<script>
-  const menuToggle = document.querySelector('.menu-toggle');
-  const mobileMenu = document.querySelector('.mobile-menu');
-
-  if (menuToggle && mobileMenu) {
-    menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.toggle('active');
-      const isOpen = mobileMenu.classList.contains('active');
-      menuToggle.setAttribute('aria-expanded', isOpen);
-      menuToggle.classList.toggle('is-open', isOpen);
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.12,
+      rootMargin: '0px 0px -10% 0px'
     });
-  }
 
-  const revealElements = document.querySelectorAll('.reveal-fade-up');
-
-  const revealObserver = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, {
-    threshold: 0.12,
-    rootMargin: '0px 0px -10% 0px'
-  });
-
-  revealElements.forEach(el => revealObserver.observe(el));
-</script>
+    revealElements.forEach((el) => revealObserver.observe(el));
+  </script>
 </body>
 </html>
