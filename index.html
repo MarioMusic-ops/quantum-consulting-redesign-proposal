@@ -3,51 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quantum Consulting Group LLC — A Journey to Mental Wellness</title>
+  <title>Quantum Behavioral Health & Wellness</title>
   <meta
     name="description"
-    content="Quantum Consulting Group LLC offers compassionate mental health services including Project THRIVE, Medication Management, and Capacity Building. Now accepting new clients in Illinois, Missouri, and Texas."
+    content="Quantum Behavioral Health & Wellness provides thoughtful behavioral health support, psychiatric evaluation, medication management, and wellness-focused care for clients in Illinois, Missouri, and Texas."
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="navbar">
     <div class="nav-inner">
-      <a href="#home" class="brand" aria-label="Quantum Consulting Group LLC home">
+      <a href="#home" class="brand" aria-label="Quantum Behavioral Health & Wellness home">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 32 32" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="qg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#3B82F6"></stop>
-                <stop offset="100%" stop-color="#8ECAE6"></stop>
+                <stop offset="0%" stop-color="#243B3A"></stop>
+                <stop offset="55%" stop-color="#8FAF9B"></stop>
+                <stop offset="100%" stop-color="#D8B96E"></stop>
               </linearGradient>
             </defs>
             <circle cx="16" cy="16" r="13" fill="none" stroke="url(#qg)" stroke-width="3"></circle>
             <path d="M21 21 L27 27" stroke="url(#qg)" stroke-width="3" stroke-linecap="round"></path>
           </svg>
         </span>
+
         <span class="brand-text">
           <strong>Quantum</strong>
-          <em>Consulting Group LLC</em>
+          <em>Behavioral Health & Wellness</em>
         </span>
       </a>
 
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#home" class="active">Home</a>
         <a href="#about">Meet Dr. Cal</a>
-        <a href="#about">Quantum Team</a>
-        <a href="#services">Services Provided</a>
-        <a href="#expansion-preview">More <span class="caret" aria-hidden="true">▾</span></a>
+        <a href="#services">Services</a>
+        <a href="#medication">Medication Management</a>
+        <a href="#areas-served">Insurance / Areas Served</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       <a href="#client-form" class="btn btn-ghost-pill nav-cta">
-        Client Interest Form!
+        Request a Consultation
         <span class="btn-arrow" aria-hidden="true">→</span>
       </a>
 
@@ -67,10 +71,11 @@
       <nav class="mobile-menu-links" aria-label="Mobile navigation">
         <a href="#home">Home</a>
         <a href="#about">Meet Dr. Cal</a>
-        <a href="#about">Quantum Team</a>
-        <a href="#services">Services Provided</a>
-        <a href="#expansion-preview">More</a>
-        <a href="#client-form" class="mobile-menu-cta">Client Interest Form!</a>
+        <a href="#services">Services</a>
+        <a href="#medication">Medication Management</a>
+        <a href="#areas-served">Insurance / Areas Served</a>
+        <a href="#contact">Contact</a>
+        <a href="#client-form" class="mobile-menu-cta">Request a Consultation</a>
       </nav>
     </div>
   </header>
@@ -78,22 +83,26 @@
   <main>
     <section class="hero" id="home">
       <div class="hero-media">
-        <div class="hero-image" role="img" aria-label="A joyful woman outdoors"></div>
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="A peaceful wellness setting representing calm behavioral health care"
+        ></div>
         <div class="hero-tint" aria-hidden="true"></div>
 
         <div class="mobile-hero-text">
           <p>
-            Take your first step today!<br />
-            If you want to go fast, go alone. If you want to go far, go together!
+            Thoughtful care. Clear next steps.<br />
+            Support designed to help you move forward with confidence.
           </p>
         </div>
       </div>
 
-      <aside class="floating booking-card hero-load hero-load-delay-3" aria-label="Book a schedule">
+      <aside class="floating booking-card hero-load hero-load-delay-3" aria-label="Consultation preview">
         <div class="booking-head">
           <div>
-            <p class="booking-eyebrow">Book Schedule</p>
-            <p class="booking-month">April 2026</p>
+            <p class="booking-eyebrow">Consultation Preview</p>
+            <p class="booking-month">Private Next Step</p>
           </div>
           <div class="booking-icon" aria-hidden="true">
             <svg
@@ -112,42 +121,44 @@
           </div>
         </div>
 
-        <div class="dates">
-          <div class="date"><span class="dow">Mon</span><span class="dnum">21</span></div>
-          <div class="date"><span class="dow">Tue</span><span class="dnum">22</span></div>
-          <div class="date active"><span class="dow">Wed</span><span class="dnum">23</span></div>
-          <div class="date"><span class="dow">Thu</span><span class="dnum">24</span></div>
-          <div class="date"><span class="dow">Fri</span><span class="dnum">25</span></div>
+        <div class="dates" aria-label="Care values">
+          <div class="date"><span class="dow">Care</span><span class="dnum">01</span></div>
+          <div class="date"><span class="dow">Listen</span><span class="dnum">02</span></div>
+          <div class="date active"><span class="dow">Plan</span><span class="dnum">03</span></div>
+          <div class="date"><span class="dow">Support</span><span class="dnum">04</span></div>
+          <div class="date"><span class="dow">Follow</span><span class="dnum">05</span></div>
         </div>
 
         <div class="booking-foot">
           <span class="dot"></span>
-          <p>15-min consultation · 10:30 AM</p>
+          <p>15-minute consultation · confidential and no-pressure</p>
         </div>
       </aside>
 
       <div class="organic-shape hero-load hero-load-delay-1">
-        <p class="hero-eyebrow">Quantum Consulting Group · Mental Wellness</p>
-        <h1 class="hero-title">A Journey to<br />Mental Wellness</h1>
+        <p class="hero-eyebrow">Quantum Behavioral Health & Wellness</p>
+        <h1 class="hero-title">Compassionate care for a clearer path forward.</h1>
         <p class="hero-sub">
-          Compassionate, evidence-based therapy and psychiatric care designed to meet you
-          exactly where you are — and walk with you forward.
+          Thoughtful behavioral health support, psychiatric evaluation, medication
+          management, and wellness-focused care designed to help clients feel heard,
+          supported, and equipped for the next step.
         </p>
+
         <div class="hero-ctas">
-          <a href="#consultation" class="btn btn-primary">
-            Book a 15 Minute Consultation
+          <a href="#client-form" class="btn btn-primary">
+            Request a Consultation
             <span class="btn-arrow" aria-hidden="true">→</span>
           </a>
           <a href="#services" class="btn btn-text">
-            If you want to go fast, go alone. If you want to go far, go together!
+            Explore Services
           </a>
         </div>
       </div>
 
       <div class="accepting-banner hero-load hero-load-delay-2" role="note">
         <span class="live-dot" aria-hidden="true"></span>
-        <strong>WE ARE ACCEPTING NEW CLIENTS</strong>
-        <span class="banner-states">in Illinois, Missouri, &amp; Texas!</span>
+        <strong>ACCEPTING NEW CLIENTS</strong>
+        <span class="banner-states">Serving Illinois, Missouri, &amp; Texas</span>
       </div>
     </section>
 
@@ -158,31 +169,36 @@
             <div
               class="media-image"
               role="img"
-              aria-label="A woman meditating peacefully at sunset"
+              aria-label="A peaceful moment representing supportive mental health care"
             ></div>
-            <button type="button" class="glass-btn">
+            <a href="#client-form" class="glass-btn">
               <span class="play-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
                   <path d="M8 5v14l11-7z"></path>
                 </svg>
               </span>
-              Therapy Session
-            </button>
+              Begin with a consultation
+            </a>
           </div>
         </div>
 
         <div class="about-content reveal-fade-up reveal-delay-1">
-          <p class="eyebrow">About Quantum</p>
+          <p class="eyebrow">Meet Dr. Cal</p>
           <h2 class="section-title">
-            You Deserve to be<br /><span class="title-accent">Mentally Healthy</span>
+            Care that feels personal,<br /><span class="title-accent">steady, and supportive</span>
           </h2>
           <p class="lead">
-            At Quantum Consulting Group LLC, we believe wellness is a journey, not a
-            destination. Our team of licensed clinicians, psychiatric providers, and
-            community advocates work alongside you to build resilience, restore balance,
-            and rediscover joy — through services tailored to your story.
+            Quantum Behavioral Health & Wellness was created to offer a calmer, clearer
+            mental health experience for individuals seeking practical support, thoughtful
+            medication guidance, and a provider who takes time to understand the whole person.
           </p>
-          <a href="#consultation" class="btn btn-primary">
+          <p class="lead">
+            Led by Dr. Cal, the care experience is centered around listening first,
+            explaining options clearly, and helping each client move forward with a plan
+            that feels realistic, respectful, and personalized.
+          </p>
+
+          <a href="#client-form" class="btn btn-primary">
             Get Started
             <span class="btn-arrow" aria-hidden="true">→</span>
           </a>
@@ -204,10 +220,10 @@
                   <path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
                 </svg>
               </div>
-              <h3>Confidentiality</h3>
+              <h3>Confidential</h3>
               <p>
-                Your story stays yours. HIPAA-secure platforms and discreet, judgment-free
-                care from start to finish.
+                A private, judgment-free care experience built around discretion,
+                professionalism, and trust.
               </p>
             </article>
 
@@ -227,10 +243,10 @@
                   <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path>
                 </svg>
               </div>
-              <h3>Accessibility</h3>
+              <h3>Accessible</h3>
               <p>
-                Telehealth and in-person options across IL, MO, &amp; TX — flexible
-                scheduling that fits real life.
+                Support for clients across Illinois, Missouri, and Texas, with service
+                options confirmed during consultation.
               </p>
             </article>
 
@@ -246,15 +262,13 @@
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 >
-                  <path d="M16 11a4 4 0 1 0-4-4"></path>
-                  <path d="M8 11a4 4 0 1 1 4-4"></path>
-                  <path d="M3 21v-2a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"></path>
+                  <path d="M12 21s-7-4.35-9.33-10.08C1.35 7.63 3.78 4 7.33 4c2.07 0 3.45 1.12 4.67 2.67C13.22 5.12 14.6 4 16.67 4c3.55 0 5.98 3.63 4.66 6.92C19 16.65 12 21 12 21Z"></path>
                 </svg>
               </div>
-              <h3>Community</h3>
+              <h3>Whole-person</h3>
               <p>
-                Healing happens together. Connect with peer groups, family supports, and
-                culturally-attuned providers.
+                Care that considers mental health, daily life, goals, stressors, and the
+                support needed to keep moving forward.
               </p>
             </article>
           </div>
@@ -265,25 +279,26 @@
     <section class="services" id="services">
       <div class="services-inner">
         <div class="services-head reveal-fade-up">
-          <p class="eyebrow eyebrow-light">Services Provided</p>
+          <p class="eyebrow eyebrow-light">Services</p>
           <h2 class="section-title section-title-light">
-            Find out more about<br />our services
+            Behavioral health support<br />with clear next steps
           </h2>
           <p class="lead lead-light">
-            From early intervention to long-term care, our service lines are designed to
-            meet you wherever you are on your wellness journey.
+            The standalone Quantum Behavioral Health & Wellness experience focuses on the
+            services prospective clients are most likely looking for first: evaluation,
+            medication support, care planning, and ongoing wellness guidance.
           </p>
         </div>
 
         <div class="service-grid">
           <article class="service-card service-feature reveal-fade-up reveal-delay-1">
-            <span class="service-tag">Flagship Program</span>
-            <h3>Project THRIVE</h3>
+            <span class="service-tag">First Step</span>
+            <h3>Psychiatric Evaluation</h3>
             <p>
-              A holistic, strengths-based program supporting youth and adults in building
-              life skills, emotional regulation, and lasting confidence.
+              A thoughtful starting point to better understand symptoms, history, goals,
+              and the level of support that may be appropriate.
             </p>
-            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#client-form" class="service-link">Request a consultation <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card reveal-fade-up reveal-delay-2">
@@ -304,10 +319,10 @@
             </div>
             <h3>Medication Management</h3>
             <p>
-              Board-certified psychiatric providers offering thoughtful, ongoing
-              medication evaluation and adjustment.
+              Ongoing medication evaluation, adjustment, education, and follow-up designed
+              to help clients feel informed and supported.
             </p>
-            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#medication" class="service-link">Learn more <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card reveal-fade-up reveal-delay-3">
@@ -322,16 +337,18 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <path d="M3 21V8l9-5 9 5v13"></path>
-                <path d="M9 21V12h6v9"></path>
+                <path d="M12 20v-6"></path>
+                <path d="M6 20V10"></path>
+                <path d="M18 20V4"></path>
+                <path d="M4 20h16"></path>
               </svg>
             </div>
-            <h3>Capacity Building Services</h3>
+            <h3>Behavioral Health Support</h3>
             <p>
-              Skill-building, advocacy, and goal-setting supports that empower individuals
-              and families to thrive in their communities.
+              Practical support for emotional wellness, life stressors, mental health
+              concerns, and personalized care goals.
             </p>
-            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#client-form" class="service-link">Get started <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card reveal-fade-up reveal-delay-4">
@@ -347,231 +364,137 @@
                 stroke-linejoin="round"
               >
                 <circle cx="12" cy="12" r="9"></circle>
-                <path d="M12 3a14 14 0 0 1 0 18M3 12h18"></path>
+                <path d="M8 12h8"></path>
+                <path d="M12 8v8"></path>
               </svg>
             </div>
-            <h3>Quantum Services</h3>
+            <h3>Wellness & Care Planning</h3>
             <p>
-              Tailored consulting, training, and clinical partnerships for organizations
-              committed to whole-person mental health.
+              A steady plan that connects treatment recommendations, follow-up, lifestyle
+              considerations, and long-term support.
             </p>
-            <a href="#" class="service-link">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#client-form" class="service-link">Plan your next step <span aria-hidden="true">→</span></a>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="testimonials" id="testimonials">
-      <div class="testimonials-inner">
-        <div class="testimonials-head reveal-fade-up">
-          <p class="eyebrow">Client Voices</p>
-          <h2 class="section-title">
-            Stories from people<br /><span class="title-accent">who chose to thrive</span>
-          </h2>
-          <p class="lead">
-            Real reflections from individuals and families who have walked the Quantum
-            journey with us. Names have been shared with permission.
-          </p>
-        </div>
-
-        <div class="testimonial-stats">
-          <div class="stat-pill reveal-fade-up reveal-delay-1">
-            <span class="stat-num">4.9<span class="stat-unit">/5</span></span>
-            <span class="stat-label">Average client rating</span>
-          </div>
-          <div class="stat-pill reveal-fade-up reveal-delay-2">
-            <span class="stat-num">12k<span class="stat-unit">+</span></span>
-            <span class="stat-label">Sessions delivered</span>
-          </div>
-          <div class="stat-pill reveal-fade-up reveal-delay-3">
-            <span class="stat-num">3<span class="stat-unit">states</span></span>
-            <span class="stat-label">IL · MO · TX</span>
-          </div>
-        </div>
-
-        <div class="testimonial-grid">
-          <article class="testimonial t-feature reveal-fade-up reveal-delay-1">
-            <p class="feature-card-label">Celebrity Spotlight</p>
-
-            <p class="quote">
-              We’re honored to have received support and visibility from Cedric the
-              Entertainer, helping bring attention to the important mental health services
-              we provide to Black, Brown, and LGBT+ communities.
-            </p>
-
-            <div class="testimonial-photo-wrap">
-              <img
-                src="assets/testimonial-person.jpg"
-                alt="Cedric the Entertainer"
-                class="testimonial-photo"
-              />
-            </div>
-
-            <div class="client">
-              <div>
-                <p class="client-name">Cedric the Entertainer</p>
-                <p class="client-meta">Featured Support</p>
-              </div>
-            </div>
-          </article>
-
-          <article class="testimonial reveal-fade-up reveal-delay-2">
-            <div class="quote-mark" aria-hidden="true">“</div>
-            <p class="quote">
-              Medication management used to feel intimidating. The Quantum psychiatric team
-              listened, adjusted thoughtfully, and finally helped me find a plan that fits
-              my life.
-            </p>
-            <div class="stars" aria-label="Rated 5 out of 5">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-            </div>
-            <div class="client">
-              <span class="client-avatar" style="background-image:url('assets/avatar2.png')"></span>
-              <div>
-                <p class="client-name">Jordan T.</p>
-                <p class="client-meta">Medication Management · St. Louis, MO</p>
-              </div>
-            </div>
-          </article>
-
-          <article class="testimonial reveal-fade-up reveal-delay-3">
-            <div class="quote-mark" aria-hidden="true">“</div>
-            <p class="quote">
-              Capacity Building gave my son confidence I didn't know was possible. Our
-              coordinator showed up with patience and a plan — every single week.
-            </p>
-            <div class="stars" aria-label="Rated 5 out of 5">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-            </div>
-            <div class="client">
-              <span class="client-avatar" style="background-image:url('assets/avatar1.png')"></span>
-              <div>
-                <p class="client-name">Alicia M.</p>
-                <p class="client-meta">Capacity Building · Houston, TX</p>
-              </div>
-            </div>
-          </article>
-
-          <article class="testimonial reveal-fade-up reveal-delay-4">
-            <div class="quote-mark" aria-hidden="true">“</div>
-            <p class="quote">
-              Telehealth with Quantum is the most human virtual care I've experienced.
-              Booking is effortless and my therapist genuinely remembers the small things.
-            </p>
-            <div class="stars" aria-label="Rated 5 out of 5">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-            </div>
-            <div class="client">
-              <span class="client-avatar" style="background-image:url('assets/avatar3.jpg')"></span>
-              <div>
-                <p class="client-name">Devon W.</p>
-                <p class="client-meta">Quantum Services · Springfield, IL</p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="consult" id="consultation">
+    <section class="consult medication-spotlight" id="medication">
       <div class="consult-card">
         <div class="consult-copy reveal-fade-up">
-          <p class="eyebrow">Ready when you are</p>
-          <h2 class="section-title">Book a 15 Minute<br />Consultation!</h2>
+          <p class="eyebrow">Medication Management</p>
+          <h2 class="section-title">Medication support with<br />care and clarity</h2>
           <p class="lead">
-            If you would like to discuss our services, book an appointment today. It's
-            free, confidential, and there's no commitment.
+            Medication can be an important part of mental health care, but it should never
+            feel rushed or confusing. Quantum Behavioral Health & Wellness provides
+            thoughtful evaluation, ongoing follow-up, and clear communication so clients
+            understand their options and feel supported throughout the process.
           </p>
+
           <div class="consult-ctas">
-            <a href="#" class="btn btn-primary">
-              Book Appointment <span class="btn-arrow" aria-hidden="true">→</span>
+            <a href="#client-form" class="btn btn-primary">
+              Request Medication Support <span class="btn-arrow" aria-hidden="true">→</span>
             </a>
-            <a href="#client-form" class="btn btn-ghost">Client Interest Form</a>
+            <a href="#areas-served" class="btn btn-ghost">View Areas Served</a>
           </div>
         </div>
 
         <div class="consult-aside reveal-fade-up reveal-delay-2">
           <div class="consult-stat">
-            <span class="num">15</span>
-            <span class="unit">min</span>
+            <span class="num">3</span>
+            <span class="unit">states</span>
           </div>
           <p class="consult-stat-label">
-            Free, no-pressure intro call with a Quantum care coordinator.
+            Serving clients in Illinois, Missouri, and Texas with availability confirmed
+            during consultation.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="expansion-preview" id="expansion-preview">
-      <div class="expansion-preview__inner">
-        <div class="expansion-preview__head reveal-fade-up">
-          <p class="eyebrow">Room to Expand</p>
+    <section class="testimonials trust-section" id="expectations">
+      <div class="testimonials-inner">
+        <div class="testimonials-head reveal-fade-up">
+          <p class="eyebrow">What to Expect</p>
           <h2 class="section-title">
-            A flexible foundation for<br /><span class="title-accent">deeper storytelling</span>
+            A calmer experience from<br /><span class="title-accent">first contact to follow-up</span>
           </h2>
+          <p class="lead">
+            The goal of this standalone site is to help prospective clients quickly
+            understand who Quantum Behavioral Health & Wellness serves, what support is
+            available, and how to take the next step without feeling overwhelmed.
+          </p>
         </div>
 
-        <div class="expansion-preview__rail">
-          <article class="expansion-preview__card">
-            <span class="expansion-preview__tag">Specialty Audience</span>
-            <h3>Military &amp; Veterans Support</h3>
-            <p>
-              Dedicated messaging, tailored support language, and audience-specific trust
-              content for veterans, service members, and military families.
+        <div class="testimonial-grid expectation-grid">
+          <article class="testimonial reveal-fade-up reveal-delay-1">
+            <div class="quote-mark" aria-hidden="true">01</div>
+            <h3>Private first step</h3>
+            <p class="quote">
+              Clients can begin with a confidential consultation request and receive
+              guidance on what service may be the best fit.
             </p>
           </article>
 
-          <article class="expansion-preview__card">
-            <span class="expansion-preview__tag">Social Proof</span>
-            <h3>More Client Stories</h3>
-            <p>
-              Additional testimonials, community highlights, and expanded stories that
-              deepen credibility and strengthen emotional connection.
+          <article class="testimonial reveal-fade-up reveal-delay-2">
+            <div class="quote-mark" aria-hidden="true">02</div>
+            <h3>Thoughtful listening</h3>
+            <p class="quote">
+              Care begins with understanding the person, not just the symptoms. The
+              process is designed to feel respectful, calm, and unrushed.
             </p>
           </article>
 
-          <article class="expansion-preview__card">
-            <span class="expansion-preview__tag">Trust Building</span>
-            <h3>Meet the Team</h3>
-            <p>
-              Provider introductions, care philosophy, credentials, and approachable
-              profiles that make the experience feel more personal and reassuring.
+          <article class="testimonial reveal-fade-up reveal-delay-3">
+            <div class="quote-mark" aria-hidden="true">03</div>
+            <h3>Clear recommendations</h3>
+            <p class="quote">
+              Clients receive practical guidance about treatment options, medication
+              considerations, follow-up, and next steps.
             </p>
           </article>
 
-          <article class="expansion-preview__card">
-            <span class="expansion-preview__tag">Helpful Content</span>
-            <h3>FAQs &amp; Resources</h3>
-            <p>
-              Helpful answers, next-step guidance, and educational content that make the
-              site feel more supportive, informative, and complete.
+          <article class="testimonial reveal-fade-up reveal-delay-4">
+            <div class="quote-mark" aria-hidden="true">04</div>
+            <h3>Ongoing support</h3>
+            <p class="quote">
+              The care plan can continue with follow-up appointments, medication
+              management, wellness planning, and coordinated support when appropriate.
             </p>
           </article>
+        </div>
+      </div>
+    </section>
 
-          <div class="expansion-preview__fade">
-            <div class="expansion-preview__message">
-              <p class="expansion-preview__message-kicker">Concept Preview</p>
-              <p class="expansion-preview__message-title">This direction leaves room to grow</p>
-              <p class="expansion-preview__message-copy">
-                The current mockup presents a polished visual foundation, with flexibility
-                for future pages, specialty sections, and deeper supporting content.
-              </p>
-            </div>
+    <section class="consult areas-served" id="areas-served">
+      <div class="consult-card">
+        <div class="consult-copy reveal-fade-up">
+          <p class="eyebrow">Insurance / Areas Served</p>
+          <h2 class="section-title">Serving clients across<br />Illinois, Missouri, and Texas</h2>
+          <p class="lead">
+            Quantum Behavioral Health & Wellness supports clients across Illinois,
+            Missouri, and Texas. Availability, insurance participation, appointment type,
+            and service options may vary by location and can be confirmed during the
+            consultation process.
+          </p>
+
+          <div class="consult-ctas">
+            <a href="#client-form" class="btn btn-primary">
+              Check Availability <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Contact the Team</a>
           </div>
+        </div>
 
-          <div class="expansion-preview__overlay">
-            <div class="expansion-preview__overlay-box reveal-fade-up reveal-delay-1">
-              <p class="expansion-preview__overlay-kicker">Mockup Note</p>
-              <h3 class="expansion-preview__overlay-title">
-                This section represents additional content that could be included on the website
-              </h3>
-              <p class="expansion-preview__overlay-copy">
-                Examples may include military-focused pages, more testimonials, team
-                highlights, FAQs, specialty programs, and other trust-building or
-                audience-specific sections.
-              </p>
-            </div>
+        <div class="consult-aside reveal-fade-up reveal-delay-2">
+          <div class="consult-stat">
+            <span class="num">IL</span>
+            <span class="unit">MO · TX</span>
           </div>
+          <p class="consult-stat-label">
+            Telehealth and/or in-person availability should be confirmed based on the
+            client’s state, insurance, and care needs.
+          </p>
         </div>
       </div>
     </section>
@@ -579,14 +502,14 @@
     <section class="contact" id="contact">
       <div class="contact-inner">
         <div class="contact-info reveal-fade-up">
-          <p class="eyebrow">Get in Touch</p>
+          <p class="eyebrow">Contact / Consultation</p>
           <h2 class="section-title">
-            Let's start the<br /><span class="title-accent">conversation</span>
+            Start with a private<br /><span class="title-accent">consultation request</span>
           </h2>
           <p class="lead">
-            Whether you're a prospective client, a referring provider, or a community
-            partner, our care coordinators are ready to listen and guide you to the right
-            next step.
+            Share a few details about what you are looking for, and the Quantum Behavioral
+            Health & Wellness team can help confirm the best next step, service fit, and
+            availability.
           </p>
 
           <ul class="contact-list" aria-label="Contact methods">
@@ -606,9 +529,9 @@
                 </svg>
               </span>
               <div>
-                <p class="ci-label">Call us</p>
-                <a href="tel:+18005551234" class="ci-value">(800) 555-1234</a>
-                <p class="ci-meta">Mon–Fri, 8:00 AM – 7:00 PM CT</p>
+                <p class="ci-label">Consultation</p>
+                <a href="#client-form" class="ci-value">Request a consultation online</a>
+                <p class="ci-meta">A simple first step for new client inquiries</p>
               </div>
             </li>
 
@@ -629,9 +552,11 @@
                 </svg>
               </span>
               <div>
-                <p class="ci-label">Email us</p>
-                <a href="mailto:hello@quantumcg.com" class="ci-value">hello@quantumcg.com</a>
-                <p class="ci-meta">We respond within 1 business day</p>
+                <p class="ci-label">Email</p>
+                <a href="mailto:hello@quantumbehavioralhealth.com" class="ci-value">
+                  hello@quantumbehavioralhealth.com
+                </a>
+                <p class="ci-meta">Final email address can be connected before launch</p>
               </div>
             </li>
 
@@ -652,29 +577,29 @@
                 </svg>
               </span>
               <div>
-                <p class="ci-label">Visit or telehealth</p>
+                <p class="ci-label">Areas served</p>
                 <p class="ci-value">Illinois · Missouri · Texas</p>
-                <p class="ci-meta">In-person and HIPAA-secure virtual care</p>
+                <p class="ci-meta">Service availability confirmed during consultation</p>
               </div>
             </li>
           </ul>
 
           <div class="contact-hours">
             <span class="hours-dot" aria-hidden="true"></span>
-            Currently accepting new clients
+            Currently accepting new client inquiries
           </div>
         </div>
 
         <form
           class="contact-form reveal-fade-up reveal-delay-2"
           id="client-form"
-          aria-label="Client interest form"
+          aria-label="Consultation request form"
           onsubmit="return false;"
         >
-          <p class="form-eyebrow">Client Interest Form</p>
-          <h3 class="form-title">Send us a message</h3>
+          <p class="form-eyebrow">Consultation Request</p>
+          <h3 class="form-title">Tell us how we can help</h3>
           <p class="form-sub">
-            Share a few details and a Quantum care coordinator will reach out personally.
+            Share a few details and the team can follow up with next-step guidance.
           </p>
 
           <div class="field-row">
@@ -714,10 +639,10 @@
               <span>Service of interest</span>
               <select name="service" required>
                 <option value="" disabled selected>Choose a service</option>
-                <option>Project THRIVE</option>
+                <option>Psychiatric Evaluation</option>
                 <option>Medication Management</option>
-                <option>Capacity Building Services</option>
-                <option>Quantum Services</option>
+                <option>Behavioral Health Support</option>
+                <option>Wellness & Care Planning</option>
                 <option>Not sure yet</option>
               </select>
             </label>
@@ -728,25 +653,26 @@
             <textarea
               name="message"
               rows="4"
-              placeholder="Tell us a little about what you're looking for..."
+              placeholder="Tell us a little about what you are looking for..."
             ></textarea>
           </label>
 
           <label class="checkbox">
             <input type="checkbox" name="consent" required />
             <span>
-              I agree to be contacted by Quantum Consulting Group regarding my inquiry.
-              (HIPAA-secure)
+              I agree to be contacted by Quantum Behavioral Health & Wellness regarding
+              my inquiry. This form is not for emergencies.
             </span>
           </label>
 
           <button type="submit" class="btn btn-primary form-submit">
-            Send Message
+            Send Consultation Request
             <span class="btn-arrow" aria-hidden="true">→</span>
           </button>
 
           <p class="form-foot">
-            By submitting, you acknowledge our Privacy Policy &amp; HIPAA Notice.
+            If you are experiencing a medical or mental health emergency, call 911 or go
+            to the nearest emergency room.
           </p>
         </form>
       </div>
@@ -758,35 +684,41 @@
       <div class="footer-brand">
         <span class="brand-text">
           <strong>Quantum</strong>
-          <em>Consulting Group LLC</em>
+          <em>Behavioral Health & Wellness</em>
         </span>
-        <p>A Journey to Mental Wellness — serving Illinois, Missouri &amp; Texas.</p>
+        <p>
+          Thoughtful behavioral health support, medication management, and wellness-focused
+          care for clients in Illinois, Missouri, and Texas.
+        </p>
+        <p class="footer-note">
+          Part of the broader Quantum family of services.
+        </p>
       </div>
 
       <div class="footer-cols">
         <div>
-          <h4>Company</h4>
+          <h4>Website</h4>
           <a href="#about">Meet Dr. Cal</a>
-          <a href="#about">Quantum Team</a>
-          <a href="#">Careers</a>
+          <a href="#services">Services</a>
+          <a href="#medication">Medication Management</a>
         </div>
         <div>
-          <h4>Services</h4>
-          <a href="#services">Project THRIVE</a>
-          <a href="#services">Medication Management</a>
-          <a href="#services">Capacity Building</a>
+          <h4>Support</h4>
+          <a href="#areas-served">Insurance / Areas Served</a>
+          <a href="#client-form">Request Consultation</a>
+          <a href="#contact">Contact</a>
         </div>
         <div>
-          <h4>Contact</h4>
-          <a href="#client-form">Client Interest Form</a>
-          <a href="#consultation">Book a Consultation</a>
-          <a href="mailto:support@quantumcg.com">support@quantumcg.com</a>
+          <h4>Important</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">HIPAA Notice</a>
+          <a href="#">Crisis Resources</a>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 Quantum Consulting Group LLC. All rights reserved.</p>
+      <p>© 2026 Quantum Behavioral Health & Wellness. All rights reserved.</p>
       <p>Privacy · Terms · HIPAA Notice</p>
     </div>
   </footer>
